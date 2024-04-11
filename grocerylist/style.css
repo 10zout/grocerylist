@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .category {
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f4f4f4; 
+  }
+  
+  .pantry {
+    background-color: #f9f9c5;
+  }
+  
+  .freezer {
+    background-color: #c5f9f7;
+  }
+
+  .food{
+    background-color: #444;
+  }
+  
+  h2 {
+
+    margin: 0;
+    padding: 10px;
+    background-color: #444; 
+    color: white;
+  }
+  .section-header {
+    background-color: #666;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
