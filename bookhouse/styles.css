@@ -1,0 +1,81 @@
+:root {
+    --main-header-color: #00008B;
+    --text-color: #000;
+    --border-color: #000;
+    --text-size: 16px;
+    --border-width: 1px;
+    --border-style: solid;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #F0F8FF;
+    text-align: center;
+    padding: 20px;
+}
+
+#main-header {
+    color: var(--main-header-color);
+    font-size: 24px;
+}
+
+.main {
+    margin: 15px;
+    padding: 10px;
+}
+
+.book {
+    border: var(--border-width) var(--border-style) var(--border-color);
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.book img {
+    width: 100px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.book h2 {
+    font-size: var(--text-size);
+    color: var(--text-color);
+}
+
+.book a {
+    display: inline-block;
+    margin: 10px 0;
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: var(--text-size);
+}
+
+footer {
+    background-color: #F0F8FF;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: var(--text-color);
+    margin-right: 15px;
+    text-decoration: none;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('library\ image.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.book {
+    background-color: rgba(255, 255, 255, 0.5); 
+}
